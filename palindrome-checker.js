@@ -1,4 +1,12 @@
-function palindrome(str) {
+let inputString = document.getElementById("palindromeInput");
+let outputString = document.getElementById("palResult");
+
+//need to determine how to pass the html input to this script
+// function palindrome(str) {
+//
+function palindrome() {
+  str = inputString;
+  //
   //(filter the input through a regex check and into a new variable
   //remove all non-alphanumeric characters)
   //create a new array to catch filter results
@@ -24,12 +32,14 @@ function palindrome(str) {
     //compare the second index to the second to last index, if false, return false,
     //so on and so forth...
     if (filtered[i] !== filtered[filtered.length - (1 + i)]) {
-      return false;
+      return (outputString = "False");
+      // return false;
     }
   }
   //if no iteration in the for loop returns false, then return true
-  return true;
+  return (outputString = "True");
+  // return true;
 }
 
-console.log(palindrome("0_0 (: /- :) 0-1"));
+// console.log(palindrome("0_0 (: /- :) 0-1"));
 //
