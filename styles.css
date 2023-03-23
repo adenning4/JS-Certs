@@ -1,0 +1,22 @@
+* {
+}
+
+body {
+  background-color: rgb(71, 71, 71);
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#palindrome-checker {
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+input {
+  margin-left: 10px;
+}
